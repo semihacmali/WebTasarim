@@ -1,0 +1,51 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formlar</title>
+</head>
+<body align="center">
+    
+
+    <form action="">
+        Ad: <input type="text" name="ad"> <br><br>
+        Soyad: <input type="text" name="soyad"> <br><br>
+        <input type="submit" value="Gönder"><br><br><br><br>
+    </form>
+
+    <form action="">
+        <input type="button" value="Buton"> <br><br>
+        <input type="checkbox" name="Kutu"> <br><br>
+        <input type="date" name="Tarih"> <br><br>
+        <input type="email" name="email"><br><br>
+        <input type="file" name="Dosya" accept="application/pdf, image/*"><br><br>
+        <input type="number" name="Numara"><br><br>
+        <input type="password" name="Sifre"><br><br>
+        <input type="radio" name="Kutu2"><br><br>
+        <input type="reset" value="Temizle"><br><br>
+        <input type="time" name="Zaman">
+        <input type="submit" value="Gönder"><br><br><br><br>
+    </form>
+
+
+
+
+
+    <form action="">
+        <input type="button" value="Uyari" onclick="uyari()">
+        <input type="range" name="a" value="1" min ="1" max="100">
+    </form>
+
+    <script>
+        function uyari(){
+        document.write("Uyari butonuna basildi");
+        }
+    </script>
+</body>
+</html>
