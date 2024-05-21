@@ -1,0 +1,36 @@
+body{
+    background-color: #121212;
+    color: white;
+    text-align: center;
+}
+.ana{
+    border: 2px solid white;
+    width: 800px;
+    height: 600px;
+    margin:0 auto ;
+}
+.logo{
+    border: 2px solid blue;
+    height: 100px;
+    width: 200px;
+    margin-left:15px;
+    margin-top: 5px;
+    border-radius: 5%;
+    display: inline-block;
+}
+.menu{
+    border: 2px solid red;
+    border-radius: 5%;
+    height: 100px;
+    width: 70%;
+    display: inline-block;
+}
+.icerik{
+    height: 70%;
+    width: auto;
+    border: 2px solid green;
+}
+.alt{
+    border: 2px solid pink;
+    height: 10%;
+}
